@@ -52,7 +52,7 @@
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-         <a href="admin.php?rol=A"> <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button></a>
+         <a href="admin.php?rol='A'"> <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button></a>
         </div>
         <!-- /.col -->
       </div>
