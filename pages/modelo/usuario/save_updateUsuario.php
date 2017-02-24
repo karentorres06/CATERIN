@@ -24,18 +24,11 @@ $usuarioCollectorObj = new UsuarioCollector();
     </head>
     <body>
         <?php
-        $roll0 = substr ("$roll", 0,1);
-        if($usuarioCollectorObj->buscarEmail($usuario)){
-            $mensaje = "ERROR EL USUARIO YA SE ENCUENTRA REGISTRADO";
-            print "<script>alert('$mensaje')</script>";
-            echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=updateUsuario.php?id_usuario=$id_usuario & usuario=$usuario & clave=$clave & rol=$rol'>";
-        }
-        else{
-            $usuarioCollectorObj->updateUsuario($id_usuario, $usuario, $clave, $estado,$roll0);
+            $usuarioCollectorObj->updateUsuario($id_usuario, $usuario, $clave, $estado,$rol);
             $mensaje = "EL USUARIO SE MODIFICO EXITOSAMENTE";
             print "<script>alert('$mensaje')</script>";
             echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=readUsuario.php?rol=$rol'>";
-        }
         ?>
+        
     </body>
 </html>
