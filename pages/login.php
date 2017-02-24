@@ -33,7 +33,7 @@
   <div class="login-box-body">
     <p class="login-box-msg">Iniciar Sesion</p>
 
-    <form method="POST" action="validar.php">
+    <form method="POST" action="admin.php">
       <div class="form-group has-feedback">
         <input type="email" name="usuario" class="form-control" placeholder="Email" required autofocus>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
