@@ -2,7 +2,7 @@
   session_start();
 ?>
 <?php
-    #$rol = $_GET['rol'];
+    $rol = $_GET['rol'];
 ?>
 <!DOCTYPE html>
 <html>
