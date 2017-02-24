@@ -33,7 +33,7 @@
   <div class="login-box-body">
     <p class="login-box-msg">Iniciar Sesion</p>
 
-    <form method="POST" action="admin.php">
+    <form>
       <div class="form-group has-feedback">
         <input type="email" name="usuario" class="form-control" placeholder="Email" required autofocus>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -52,7 +52,7 @@
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-         <a href="admin.php?rol='A'"> <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button></a>
+         <a href="admin.php?rol=A"> <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button></a>
         </div>
         <!-- /.col -->
       </div>
